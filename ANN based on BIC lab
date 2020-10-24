@@ -1,4 +1,5 @@
 # The following code is the one followed by BIC's lecturer during Deep Learning Lab I
+# cmranieri/dl_tutorial (GitHub)
 
 '''Trains a simple deep NN on the MNIST dataset.
 
