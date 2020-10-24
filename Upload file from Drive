@@ -1,4 +1,5 @@
-""" Code for uploading files from GitHub into Google Colab jupyter books.
+""" Code based on joanby (GitHub)
+Code for uploading files from GitHub into Google Colab jupyter books.
 After going to the repository in GitHub, clone it by copying the url address"""
 
 !git clone https://github.com/.....
