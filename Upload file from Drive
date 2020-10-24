@@ -1,16 +1,17 @@
 """ Code for uploading files from GitHub into Google Colab jupyter books.
-After going to the repository in GitHub, clone it"""
+After going to the repository in GitHub, clone it by copying the url address"""
 
 !git clone https://github.com/.....
 
-# 
+# add the cloned repository to your drive 
 from google.colab import drive
 drive.mount('/content/drive')
 
-#
+# check you did it right
+!ls 'EXPLORE YOUR DRIVE FILES BY CLICKING ON THE FOLDER ICON ON YOUR LEFT'
 
 
-#
+# 
 from google.colab import files
 import glob
 from google.colab import drive
