@@ -79,7 +79,7 @@ print(variance)
 
 # ADJUST THE ANN
 
-# Check which classifier works better for our dataset
+# Check which classifier works better for our dataset 
 from sklearn.model_selection import GridSearchCV
 
 # minor changes to our build_classifier function above 
